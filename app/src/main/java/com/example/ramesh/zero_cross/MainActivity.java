@@ -50,14 +50,14 @@ public class MainActivity extends AppCompatActivity {
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (temp == "x") {
-                    btn2.setText(temp);
+                if (temp.matches("x")) {
+                    btn1.setText(temp);
                     temp = "0";
-                } else if (temp == "0") {
-                    btn2.setText(temp);
+                } else if (temp.matches("0")) {
+                    btn1.setText(temp);
                     temp = "x";
                 }
-                btn2.setEnabled(false);
+                btn1.setEnabled(false);
             }
         });
 
@@ -65,10 +65,10 @@ public class MainActivity extends AppCompatActivity {
         btn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (temp == "x") {
+                if (temp.matches("x")) {
                     btn2.setText(temp);
                     temp = "0";
-                } else if (temp == "0") {
+                } else if (temp.matches("0")) {
                     btn2.setText(temp);
                     temp = "x";
                 }
@@ -79,10 +79,10 @@ public class MainActivity extends AppCompatActivity {
         btn3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (temp == "x") {
+                if (temp.matches("x")) {
                     btn3.setText(temp);
                     temp = "0";
-                } else if (temp == "0") {
+                } else if (temp.matches("0")) {
                     btn3.setText(temp);
                     temp = "x";
                 }
@@ -93,10 +93,10 @@ public class MainActivity extends AppCompatActivity {
         btn4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (temp == "x") {
+                if (temp.matches("x")) {
                     btn4.setText(temp);
                     temp = "0";
-                } else if (temp == "0") {
+                } else if (temp.matches("0")) {
                     btn4.setText(temp);
                     temp = "x";
                 }
@@ -107,10 +107,10 @@ public class MainActivity extends AppCompatActivity {
         btn5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (temp == "x") {
+                if (temp.matches("x")) {
                     btn5.setText(temp);
                     temp = "0";
-                } else if (temp == "0") {
+                } else if (temp.matches("0")) {
                     btn5.setText(temp);
                     temp = "x";
                 }
@@ -121,10 +121,10 @@ public class MainActivity extends AppCompatActivity {
         btn6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (temp == "x") {
+                if (temp.matches("x")) {
                     btn6.setText(temp);
                     temp = "0";
-                } else if (temp == "0") {
+                } else if (temp.matches("0")) {
                     btn6.setText(temp);
                     temp = "x";
                 }
@@ -135,10 +135,10 @@ public class MainActivity extends AppCompatActivity {
         btn7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (temp == "x") {
+                if (temp.matches("x")) {
                     btn7.setText(temp);
                     temp = "0";
-                } else if (temp == "0") {
+                } else if (temp.matches("0")) {
                     btn7.setText(temp);
                     temp = "x";
                 }
@@ -149,10 +149,10 @@ public class MainActivity extends AppCompatActivity {
         btn8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (temp == "x") {
+                if (temp.matches("x")) {
                     btn8.setText(temp);
                     temp = "0";
-                } else if (temp == "0") {
+                } else if (temp.matches("0")) {
                     btn8.setText(temp);
                     temp = "x";
                 }
@@ -163,10 +163,10 @@ public class MainActivity extends AppCompatActivity {
         btn9.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (temp == "x") {
+                if (temp.matches("x")) {
                     btn9.setText(temp);
                     temp = "0";
-                } else if (temp == "0") {
+                } else if (temp.matches("0")) {
                     btn9.setText(temp);
                     temp = "x";
                 }
